@@ -1,0 +1,9 @@
+{
+  "depcheck": {
+    "ignoreMatches": [
+      "tailwindcss",
+      "rimraf",
+      "@vitest/coverage-v8"
+    ]
+  }
+}

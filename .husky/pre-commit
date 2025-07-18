@@ -1,0 +1,6 @@
+yarn check-not-used-libs
+yarn validate-format
+yarn validate-lint
+yarn validate-env-example
+yarn test
+yarn build

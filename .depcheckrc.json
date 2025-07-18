@@ -1,0 +1,8 @@
+{
+  "ignores": [
+    "tailwindcss",
+    "rimraf",
+    "@vitest/coverage-v8"
+  ],
+  "skip-missing": false
+}
