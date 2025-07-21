@@ -6,7 +6,7 @@ import path from 'node:path';
 import { EnvSchema } from './env.schema';
 
 const excludedDirs = new Set(['.git', 'node_modules', 'dist', '.idea', '.husky', 'coverage', 'docker', '.vscode']);
-const listDefaultsKeys = new Set(['PWD']);
+const listDefaultsKeys = new Set(['PWD', 'DEV']);
 
 const keysNotInExample = new Set();
 const exampleFile = readFileSync('.env.example').toString();

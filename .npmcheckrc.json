@@ -3,7 +3,9 @@
     "ignoreMatches": [
       "tailwindcss",
       "rimraf",
-      "@vitest/coverage-v8"
+      "@vitest/coverage-v8",
+      "@shared/*",
+      "@products/*"
     ]
   }
 }
