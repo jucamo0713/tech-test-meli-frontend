@@ -3,6 +3,22 @@
  */
 export enum BackendUrlConstants {
     /**
+     * The URL for the products endpoint.
+     */
+    GET_PRODUCTS_BY_SHOP = '/product-by-shop',
+    /**
+     * The URL for the products recommended endpoint.
+     */
+    GET_PRODUCTS_RECOMMENDED = '/products-recommended',
+    /**
+     * The URL for the product by ID endpoint.
+     */
+    GET_PRODUCT_BY_ID = '/product-by-id',
+    /**
+     * The URL for the shop by ID endpoint.
+     */
+    GET_SHOP_BY_ID = '/shop-by-id',
+    /**
      *  The URL for the health check endpoint.
      */
     HEALTH_CHECK = '/api/shared/health-check',

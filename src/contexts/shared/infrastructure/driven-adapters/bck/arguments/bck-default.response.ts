@@ -3,5 +3,5 @@
  * This type is used to indicate the success of an operation.
  */
 export type BckDefaultResponse = {
-    success: true;
+    success: boolean;
 };
