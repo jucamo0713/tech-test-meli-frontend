@@ -23,7 +23,7 @@ export function AsksComponent({ questions }: Props) {
 
     return (
         <>
-            <div className="max-w-md w-full">
+            <div className="w-full px-4">
                 <form onSubmit={handleSubmit} className="space-y-3">
                     <input
                         type="text"
